@@ -14,6 +14,10 @@
 		65B4D06B2CE73D950040A5AA /* DailyTargetsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B4D06A2CE73D950040A5AA /* DailyTargetsAppTests.swift */; };
 		65B4D0752CE73D950040A5AA /* DailyTargetsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B4D0742CE73D950040A5AA /* DailyTargetsAppUITests.swift */; };
 		65B4D0772CE73D950040A5AA /* DailyTargetsAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B4D0762CE73D950040A5AA /* DailyTargetsAppUITestsLaunchTests.swift */; };
+		65B4D0842CE73DD30040A5AA /* Goals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B4D0832CE73DD30040A5AA /* Goals.swift */; };
+		65B4D0862CE73DF90040A5AA /* GoalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B4D0852CE73DF90040A5AA /* GoalViewModel.swift */; };
+		65B4D0882CE73E130040A5AA /* GoalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B4D0872CE73E130040A5AA /* GoalDetailView.swift */; };
+		65B4D08A2CE73E3A0040A5AA /* PhotosPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B4D0892CE73E3A0040A5AA /* PhotosPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		65B4D0702CE73D950040A5AA /* DailyTargetsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyTargetsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65B4D0742CE73D950040A5AA /* DailyTargetsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTargetsAppUITests.swift; sourceTree = "<group>"; };
 		65B4D0762CE73D950040A5AA /* DailyTargetsAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTargetsAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		65B4D0832CE73DD30040A5AA /* Goals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goals.swift; sourceTree = "<group>"; };
+		65B4D0852CE73DF90040A5AA /* GoalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalViewModel.swift; sourceTree = "<group>"; };
+		65B4D0872CE73E130040A5AA /* GoalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalDetailView.swift; sourceTree = "<group>"; };
+		65B4D0892CE73E3A0040A5AA /* PhotosPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +106,10 @@
 				65B4D05B2CE73D930040A5AA /* ContentView.swift */,
 				65B4D05D2CE73D950040A5AA /* Assets.xcassets */,
 				65B4D05F2CE73D950040A5AA /* Preview Content */,
+				65B4D0832CE73DD30040A5AA /* Goals.swift */,
+				65B4D0852CE73DF90040A5AA /* GoalViewModel.swift */,
+				65B4D0872CE73E130040A5AA /* GoalDetailView.swift */,
+				65B4D0892CE73E3A0040A5AA /* PhotosPicker.swift */,
 			);
 			path = DailyTargetsApp;
 			sourceTree = "<group>";
@@ -258,7 +270,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				65B4D05C2CE73D930040A5AA /* ContentView.swift in Sources */,
+				65B4D0882CE73E130040A5AA /* GoalDetailView.swift in Sources */,
+				65B4D0862CE73DF90040A5AA /* GoalViewModel.swift in Sources */,
 				65B4D05A2CE73D930040A5AA /* DailyTargetsAppApp.swift in Sources */,
+				65B4D08A2CE73E3A0040A5AA /* PhotosPicker.swift in Sources */,
+				65B4D0842CE73DD30040A5AA /* Goals.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
