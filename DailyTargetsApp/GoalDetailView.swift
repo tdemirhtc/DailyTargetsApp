@@ -55,6 +55,4 @@ struct GoalDetailView: View {
 
 
 
-#Preview {
-    GoalDetailView()
-}
+

@@ -46,6 +46,3 @@ struct PhotoPicker: UIViewControllerRepresentable {
     }
 }
 
-#Preview {
-    PhotosPicker()
-}
